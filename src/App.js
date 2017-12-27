@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Note from './Note/Note';
-
+import './App.css';
 class App extends Component {
   constructor(props) {
     super(props);
@@ -17,9 +17,7 @@ class App extends Component {
     return (
       <div className="notesWrapper">
         <div className="notesHeader">
-          <div className="heading">
-            <h1>React & Firebase To-Do List</h1>
-          </div>
+            <h1>TODO-LIST</h1>
          </div>
         <div className="notesBody">
           {
