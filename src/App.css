@@ -52,5 +52,6 @@ html{
   .notesFooter {
     display: flex;
     flex: 1 1 5%;
+    min-height: 4em;
     background-color: rgba(0,0,0,0.5);
   }
